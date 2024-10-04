@@ -84,8 +84,8 @@ class encoder:
     # Encode Method
     def encode(self):
         """For the value of the hex__ variable:
-           First we translate the decimal into binary, and then that binary to octadecimal,
-           and then finally that octadecimal to hexidecimal.  
+           First we translate the decimal into binary, and then that binary to decimal and then octadecimal,
+           and then finally that octadecimal to decimal and to hexidecimal.  
         """
         hex__ = (hex(int(oct(int(bin(self.lenStr)[2:]))[2:])))
         
