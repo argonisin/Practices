@@ -19,7 +19,8 @@ import string
 
 # This class checks for the amount of digits used in the text 
 class IntChck:
-    
+
+    # Initialization
     def __init__(self, STRING:list[str]) -> None:
         self.str = STRING
         self.lenStr = len(self.str)
@@ -33,7 +34,8 @@ class IntChck:
 
 # This class checks for the amount of special characters used in the text
 class specialChck:
-    
+
+    # Initialization
     def __init__(self, STRING:list[str]) -> None:
         self.str = STRING
         self.lenStr = len(self.str)
@@ -47,7 +49,8 @@ class specialChck:
     
 # This class checks for the amount of lowercase or uppercase used in a text
 class up_lowChck:
-    
+
+    # Initialization
     def __init__(self, STRING:list[str]) -> None:
         self.str = STRING
         self.lenStr = len(self.str)
