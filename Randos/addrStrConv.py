@@ -104,7 +104,7 @@ while True:
     user = input("Type anything: ")
     
     if user:
-        textListed = [i for i in user if i != ' ']
+        textListed = [i for i in user if i != ' '] # Removes the spaces on the string the user provided
         addrString = encoder(textListed).encode()
         
         print(f"STRING ADDRESS : {addrString}\n")
